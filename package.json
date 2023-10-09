@@ -12,7 +12,8 @@
     "@xata.io/client": "0.26.6",
     "next": "^13.5.5-canary.4",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "autoprefixer": "latest",
