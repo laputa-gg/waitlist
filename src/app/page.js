@@ -16,7 +16,7 @@ export default function Home() {
           <br />
           <span className='text-coral-red inline-block mt-3'>your </span> dream
         </h1>
-        <p className='font-anton text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
+        <p className='font-inter text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
         A novel collaborative blockchain game | Free to Play & Play to Earn |
 In-game ReFi / DeFi 
 

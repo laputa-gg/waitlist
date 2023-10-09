@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter, Anton } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import { hamburger } from '@/assets/icons'
 import { headerLogo } from '@/assets/images'
 import { navLinks } from '@/constants'
@@ -7,7 +7,6 @@ import { navLinks } from '@/constants'
 import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
-const anton = Anton({ subsets: ['latin'] , weight:"400"})
 
 export const metadata = {
   title: 'Laputa.gg Waitlist',
