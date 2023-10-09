@@ -41,7 +41,7 @@ const Footer = () => {
                   <li
                     key={link.name}
                     className='text-white-400 text-base mt-3 font-montserrat leading-normal hover:text-slate-gray cursor-pointer'>
-                    <a href={link.link}>{link.name}</a>
+                    <a href={link.link} target={link.blank === true? "_blank" :""}>{link.name}</a>
                   </li>
                 ))}
               </ul>

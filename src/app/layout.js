@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { hamburger } from '@/assets/icons'
-import { headerLogo } from '@/assets/images'
+import { footerLogo } from '@/assets/images'
 import { navLinks } from '@/constants'
 
 import Image from 'next/image'
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <header className="w-full py-8 z-10 sm:px-16 px-8">
       <nav className="flex justify-between items-center max-container">
          <a href='/'>
-          <Image src={headerLogo} alt='logo'  className="md:w-[130px] md:h-[29px] w-[70px]" />
+          <Image src={footerLogo} alt='logo'  className="md:w-[130px] md:h-[29px] w-[70px]" />
         </a>
         <ul className="max-md:hidden">
           {navLinks.map((link) => (

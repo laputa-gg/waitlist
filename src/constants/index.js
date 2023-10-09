@@ -47,7 +47,7 @@ export const statistics = [
   { value: "700+", label: "NFTs" },
   { value: "850k+", label: "Users" },
 ];
-
+/* 
 export const products = [
   {
     imgURL: shoe4,
@@ -70,8 +70,8 @@ export const products = [
     price: "$230.20",
   },
 ];
-
-export const services = [
+ */
+/* export const services = [
   {
     imgURL: truckFast,
     label: "Build Cities",
@@ -88,7 +88,7 @@ export const services = [
     label: "Easy",
     subtext: "Click Click Done.",
   },
-];
+]; */
 
 export const reviews = [
   {
@@ -120,15 +120,15 @@ export const footerLinks = [
     title: "Help",
     links: [
       { name: "FAQs", link: "/" },
-      { name: "How it works", link: "https://docs.google.com/document/d/1ITkXf_4CMTa4ngvNXF3QfDrGIo8TD9fn6oXTxfSThxY/" },
-      { name: "Open Source", link: "/" },
+      { name: "How it works", link: "https://docs.google.com/document/d/1ITkXf_4CMTa4ngvNXF3QfDrGIo8TD9fn6oXTxfSThxY/", blank: true }, 
+      { name: "Open Source", link: "/", blank: true },
     ],
   },
   {
     title: "Get in touch",
     links: [
       { name: "hi@laputa.gg", link: "mailto:hi@laputa.gg" },
-      { name: "Discord", link: "https://discord.gg/auN3RtAX8X" },
+      { name: "Discord", link: "https://discord.gg/auN3RtAX8X", blank: true },
     ],
   },
 ];
