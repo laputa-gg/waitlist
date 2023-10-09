@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import { bigShoe1 } from "@/assets/images";
-import Waitlist from "@/components/Waitlist";
+//import Waitlist from "@/components/Waitlist";
 
 export default function Home() {
   return (
@@ -22,9 +22,7 @@ export default function Home() {
           <div
             className="w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full"
             id="joinwaitlist"
-          >
-            <Waitlist />
-          </div>
+          ></div>
         </div>
         <div className="flex-1 flex justify-center items-center bg-center bg-cover">
           <Image
