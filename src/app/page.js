@@ -13,41 +13,20 @@ export default function Home() {
               Build
             </span>
             <br />
-            <span className="text-coral-red inline-block mt-3">your </span>{" "}
-            dream
+            <span className="text-coral-red inline-block mt-3">Your </span>{" "}
+            Dream
           </h1>
           <p className="py-10 text-xl font-montserrat text-coral-red">
-            A world of floating cities.
+            In a world of floating cities.
           </p>
-          <div
-            className="w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full"
-            id="joinwaitlist"
-          >
-            <div className="mt-2">
-              <input
-                id="email"
-                name="email"
-                type="email"
-                autoComplete="email"
-                required
-                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              />
-              <button
-                type="submit"
-                className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Sign in
-              </button>
-            </div>
-          </div>
         </div>
         <div className="flex-1 flex justify-center items-center bg-center bg-cover">
           <Image
             src={bigShoe1}
-            alt="shoe collection"
+            alt="laputa game"
             width={610}
             height={500}
-            className="object-contain"
+            className="object-contain rounded-xl"
           />
         </div>
       </section>

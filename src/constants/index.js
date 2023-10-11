@@ -122,7 +122,11 @@ export const footerLinks = [
         link: "https://docs.google.com/document/d/1ITkXf_4CMTa4ngvNXF3QfDrGIo8TD9fn6oXTxfSThxY/",
         blank: true,
       },
-      { name: "Open Source", link: "/", blank: true },
+      {
+        name: "Open Source",
+        link: "https://github.com/Cygnusfear/laputa",
+        blank: true,
+      },
     ],
   },
   {
