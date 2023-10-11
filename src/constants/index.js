@@ -22,10 +22,7 @@ import {
   thumbnailShoe3,
 } from "../assets/images";
 
-
-export const navLinks = [
-  { href: "#joinwaitlist", label: "Beta" },
-];
+export const navLinks = [{ href: "#joinwaitlist", label: "Beta" }];
 
 export const shoes = [
   {
@@ -109,32 +106,36 @@ export const reviews = [
 
 export const footerLinks = [
   {
-    title: "Resources",
+    /*title: "Resources",*/
     links: [
-      { name: "NFT", link: "/" },
+      /* { name: "NFT", link: "/" },
       { name: "Privacy policy", link: "/" },
-      { name: "Terms and Conditions", link: "/" },
+      { name: "Terms and Conditions", link: "/" },*/
     ],
   },
-   {
-    title: "Help",
+  {
+    //title: "Help",
     links: [
-      { name: "FAQs", link: "/" },
-      { name: "How it works", link: "https://docs.google.com/document/d/1ITkXf_4CMTa4ngvNXF3QfDrGIo8TD9fn6oXTxfSThxY/", blank: true }, 
+      //{ name: "FAQs", link: "/" },
+      {
+        name: "How it works",
+        link: "https://docs.google.com/document/d/1ITkXf_4CMTa4ngvNXF3QfDrGIo8TD9fn6oXTxfSThxY/",
+        blank: true,
+      },
       { name: "Open Source", link: "/", blank: true },
     ],
   },
   {
-    title: "Get in touch",
+    //title: "Get in touch",
     links: [
+      { name: "Community", link: "https://discord.gg/auN3RtAX8X", blank: true },
       { name: "hi@laputa.gg", link: "mailto:hi@laputa.gg" },
-      { name: "Discord", link: "https://discord.gg/auN3RtAX8X", blank: true },
     ],
   },
 ];
 
 export const socialMedia = [
   { src: facebook, alt: "facebook logo" },
-//  { src: twitter, alt: "twitter logo" },
-//  { src: instagram, alt: "instagram logo" },
+  //  { src: twitter, alt: "twitter logo" },
+  //  { src: instagram, alt: "instagram logo" },
 ];

@@ -4,7 +4,7 @@ Build spectacular floating cities together in an on-chain massive multiplayer ga
 
 This waitlist landing page collects user data in form of their email address, and stores them in a database.
 
-![waitlist](https://github.com/)
+![laputa](https://github.com/)
 
 **Data in Xata / somwhere else**
 
